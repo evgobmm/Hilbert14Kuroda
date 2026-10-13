@@ -1,0 +1,13 @@
+{
+  "challenge_module": "ComparatorChallenges.Hilbert14",
+  "solution_module": "Hilbert14.ComparatorSolution",
+  "enable_nanoda": true,
+  "theorem_names": [
+    "Hilbert14.Paper.counterexample"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}
