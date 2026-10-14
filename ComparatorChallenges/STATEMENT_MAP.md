@@ -38,22 +38,23 @@ import closure. See the [checking instructions](README.md).
 Here is the explicit counterexample in the notation of the formalization.
 Let $x,y,z$ be algebraically independent variables over $\mathbb C$, and set
 
-$$
+```math
 a=x^5y+x^{-2},\qquad b=x^4y-x^{-2}+x^{-3},\qquad c=z+x^{-1}.
-$$
+```
 
 Inside $\mathbb C(x,y,z)$, define the **subfield** $L=\mathbb C(a,b,c)$ and
 its polynomial intersection $A=L\cap\mathbb C[x,y,z]$. Then
 
-$$
+```math
 A\text{ is not finitely generated as a }\mathbb C\text{-algebra}.
-$$
+```
 
 This is a negative answer to Hilbert's fourteenth problem. Section 4.1 gives
 the displayed field; the general construction is proved in Theorem 1.4 using
 Lemma 2.2. The source code also proves this counterexample over every field of
 characteristic zero. The standalone comparison targets the concrete complex-field
-statement. Extension-degree and fraction-field-of-$A$ assertions are not included.
+statement. Assertions about extension degrees and the fraction field of $A$
+are not included.
 
 ## Correspondence with Lean
 
